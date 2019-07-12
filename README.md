@@ -1,3 +1,11 @@
+# Fork from
+
+按照 Jason 小哥的说法，OneFraction 的设计初衷是作为一个平台，让用户通过平台支付租金而不是支票或银行转账。其价值来自于利用平台产生的数据最终创建一个租赁市场，用户可以通过其找到完美的公寓。
+
+他的技术选型是这样的：Server 端用 Node.js 写就。服务器使用 GraphQL 和 apollo-server 在客户端和服务器之间传递数据，并以类型友好的方式键入以与 Mongo 交互。账户系统则选用 accounts.js。
+
+[交付程序不给钱，程序员一怒之下开源客户项目代码](https://www.infoq.cn/article/RU9oadcIef7dratF2*uI)
+
 # FullStack
 
 ## What is this?
